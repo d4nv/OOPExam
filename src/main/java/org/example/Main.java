@@ -5,21 +5,36 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.printf("Enter Title:");
-        Scanner myscan = new Scanner(System.in);
+        System.out.printf("Enter Age ");
+        Scanner scan1 = new Scanner(System.in);
 
-        String input = myscan.nextLine();
+        String input = scan1.nextLine();
 
-        String Title = String.format(input);
+       int Age = Integer.parseInt(input);
 
-        if(Title =)
-
-
-
-
-
-
+        if( Age > 17  ){System.out.print("Age:" + Age);
 
         }
+        else {
+            System.out.println("Not a Valid Age");
+        }
+
+        }
+
+
+    Scanner scan2 = new Scanner(System.in);
+
+    String input = scan2.nextLine();
+
+
+
+
+
+
+
+
+
+
+
     }
-}
+
